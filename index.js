@@ -155,10 +155,13 @@ const addNames = (chain,list) => {
     switch (chain) {
         case "r":
             names = rococoParachains;
+            break;
         case "p":
             names = polkadotParachains;
+            break;
         case "k":
             names = kusamaParachains;
+            break;
     }  
 
     list.forEach((v,i) => {
